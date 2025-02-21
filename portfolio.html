@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Spencer's Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Spencer's Website!</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Projects!</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Game</a>
+                    </li>add
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Title area -->
+    <div class="bg-primary p-5 text-center">
+        <section class="banner">
+            <h2>My projects!</h3>
+                <h1>Here's some stuff I made</h1>
+        </section>
+    </div>
+
+    <div class="container py-5">
+
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+
+            <!-- START THE FEATURETTES -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette pb-3">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">Spencer BMP <span class="text-body-secondary"><a
+                                href="https://github.com/SpencerLommel/spencer-bmp">Check it out on Github</a></span>
+                    </h2>
+                    <p class="lead">SpencerBMP is a custom .BMP image parser written entirely in C. This allows you to
+                        either
+                        open existing or create new BMP files from C using an easy to understand & simple library. You
+                        are able to read/write the entire info header & pixel data of the image allowing for direct
+                        lowlevel control of all aspects of BMP files.</p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>This image was generated from scratch with my library!</title>
+                        <image href="./assets/images/portfolio/image.png" width="100%" height="100%" />
+
+                    </svg>
+                </div>
+
+
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7 order-md-2">
+                    <h2 class="featurette-heading fw-normal lh-1">Linux Mint Password Generator Applet <span
+                            class="text-body-secondary"><a
+                                href="https://cinnamon-spices.linuxmint.com/applets/view/391">Check it out on the Linux
+                                Mint Website</a></span></h2>
+                    <p class="lead">As a long time user of Linux Mint, I created a configurable Cinnamon applet for
+                        generating passwords and copying them to your clipboard</p>
+                </div>
+                <div class="col-md-5 order-md-1">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Linux Mint Logo</title>
+                        <image href="./assets/images/portfolio/lm.webp" width="100%" height="100%" />
+
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+                <div class="col-md-7">
+                    <h2 class="featurette-heading fw-normal lh-1">ModBus TCP/IP<span class="text-body-secondary"> A work
+                            project</span></h2>
+                    <p class="lead">I implemented the Modbus TCP/IP Protocol in C to work on custom PCB's that would
+                        read in data from a DB15 Serial and output it over Ethernet to be accessible as a PLC device.
+                        unfortunately as I wrote this for work I haven't uploaded the source code. Maybe eventually I
+                        will. </p>
+                </div>
+                <div class="col-md-5">
+                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+                        height="500" role="img" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <title>Linux Mint Logo</title>
+                        <image href="./assets/images/portfolio/modbus.webp" width="100%" height="100%" />
+
+                    </svg>
+                </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /END THE FEATURETTES -->
+
+        </div>
+
+
+    </div>
+
+    <!-- Footer -->
+    <div class="container">
+        <footer class="py-3 my-4">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="./about.html" class="nav-link px-2 text-body-secondary">About</a></li>
+                <li class="nav-item"><a href="./portfolio.html" class="nav-link px-2 text-body-secondary">Projects!</a>
+                </li>
+                <li class="nav-item"><a href="./contact.html" class="nav-link px-2 text-body-secondary">Contact Me</a>
+                </li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2025 Spencer Lommel</p>
+        </footer>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
